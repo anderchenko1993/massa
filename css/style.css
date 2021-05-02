@@ -169,3 +169,38 @@ footer p.copyright {
   color: #ffffffdd;
   text-align: center;
 }
+
+@media (max-width: 930px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    display: flex;
+    margin: auto;
+  }
+
+  .members {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .member img {
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 790px) {
+  .intro .cta {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .intro .cta .secondary {
+    margin-top: 15px;
+  }
+}
