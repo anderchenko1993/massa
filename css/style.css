@@ -172,17 +172,16 @@ footer p.copyright {
 
 @media (max-width: 930px) {
   .cards {
-    display: flex;
     flex-direction: column;
   }
 
   .card {
-    display: flex;
     margin: auto;
+    width: 230px;
+    margin-bottom: 10px;
   }
 
   .members {
-    display: flex;
     flex-direction: column;
   }
 
@@ -194,6 +193,9 @@ footer p.copyright {
 }
 
 @media (max-width: 790px) {
+  .sign-in {
+  }
+
   .intro .cta {
     display: flex;
     flex-direction: column;
@@ -201,6 +203,6 @@ footer p.copyright {
   }
 
   .intro .cta .secondary {
-    margin-top: 15px;
+    margin-top: 10px;
   }
 }
