@@ -171,7 +171,7 @@ footer p.copyright {
   text-align: center;
 }
 
-@media (max-width: 930px) {
+@media screen and (max-width: 930px) {
   .cards {
     flex-direction: column;
   }
@@ -195,7 +195,7 @@ footer p.copyright {
   }
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .intro .cta {
     display: flex;
     flex-direction: column;
@@ -207,13 +207,13 @@ footer p.copyright {
   }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   header {
     flex-wrap: wrap;
   }
 }
 
-@media (max-width: 580px) {
+@media screen and (max-width: 580px) {
   input[type="text"],
   input[type="email"],
   input[type="password"] {
